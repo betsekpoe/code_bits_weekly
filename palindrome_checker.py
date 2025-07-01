@@ -8,4 +8,6 @@ def check_palindrome(word = ""):
     return is_palindrome
 
 
-print(check_palindrome("madam"))
+# Example usage:
+print(check_palindrome("racecar"))  # True
+print(check_palindrome("leveler"))  # False
